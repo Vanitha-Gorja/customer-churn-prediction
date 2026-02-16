@@ -1,4 +1,4 @@
-Telco Customer Churn Prediction 📖 Overview
+Telco Customer Churn Prediction
 
 This project builds a Machine Learning classification model to predict whether a telecom customer will churn based on demographic details, service subscriptions, and billing information.
 
@@ -42,12 +42,15 @@ imbalanced-learn (SMOTE)
 
 pickle
 
-▶️ How to Run 1️⃣ Install Dependencies pip install -r requirements.txt
 
-2️⃣ Load Model and Predict import pickle import pandas as pd
+ How to Run
 
-model = pickle.load("model.pkl")
+1. Install Dependencies pip install -r requirements.txt
 
-data = {...} # input dictionary df = pd.DataFrame([data])
+2. Load Model and Predict
 
-prediction = model.predict(df) print(prediction)
+    import pickle
+    import pandas as pd
+    model = pickle.load("model.pkl")
+    data = {...} # input dictionary df = pd.DataFrame([data])
+    prediction = model.predict(df) print(prediction)
