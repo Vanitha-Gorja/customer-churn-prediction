@@ -1,4 +1,4 @@
-📌 Telco Customer Churn Prediction 📖 Overview
+Telco Customer Churn Prediction 📖 Overview
 
 This project builds a Machine Learning classification model to predict whether a telecom customer will churn based on demographic details, service subscriptions, and billing information.
 
